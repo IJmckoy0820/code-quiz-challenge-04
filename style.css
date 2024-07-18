@@ -1,0 +1,88 @@
+
+
+header{
+
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    text-align: center;
+    border-color: blue;
+    border-style: double;
+    border-style: groove;
+ }
+
+ .start{
+
+width: 200px;
+margin-bottom: 25px;
+
+ }
+
+ .timer{ 
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .Q-area{
+     
+    width:50%;
+    border-style: solid;
+    border-color: blue;
+    margin-left: 0;
+    
+    
+    height: 450px;
+    
+ }
+ .flexbox{
+
+    display:flex;
+    height: 480px;
+    border: solid black;
+   flex-direction: row;
+   
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+   
+    
+ }
+
+ #feedback{
+   width: 30%; /* Adjust width as needed */
+   height: 450px; /* Adjust height based on content */
+   border: 2px solid green; /* Example border */
+   padding: 10px; /* Adds some space inside the box */
+   margin-right: 20px; /* Adds space between this box and the .Q-area */
+}
+ ul{
+ 
+    list-style-type:upper-alpha ;
+    margin-left: 150px;
+    
+   
+ }
+ li{
+    width: 55%;
+    margin-top: 20px;
+    border: solid black;
+   
+     
+ }
+
+ li:hover{
+border-color:rgb(210, 224, 211);
+background-color: rgb(112, 160, 112);
+
+ }
+ @media screen and ( max-width:730px){
+    ul{
+        margin-left: 50px;
+    }
+    .Q-area{ 
+        margin-left: 50PX;
+    }
+    
+ }
